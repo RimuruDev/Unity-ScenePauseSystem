@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using AbyssMoth.ScenePauseSystem;
 using UnityEngine;
 
@@ -37,3 +38,4 @@ namespace Plugins.Unity_ScenePauseSystem.Example
         }
     }
 }
+#endif

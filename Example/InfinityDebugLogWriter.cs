@@ -1,4 +1,4 @@
-using System;
+#if UNITY_EDITOR
 using UnityEngine;
 using AbyssMoth.ScenePauseSystem;
 
@@ -11,8 +11,8 @@ namespace Plugins.Unity_ScenePauseSystem.Example
     {
         private protected override void OnUpdate()
         {
-            Debug.Log(
-                $"Write message! Pause Sender: [{ReadLastPauseSender?.GetType().Name}] | Resume Sender: [{ReadLastResumeSender?.GetType().Name}]");
+            Debug.Log($"Write message! Pause Sender: [{ReadLastPauseSender?.GetType().Name}] | Resume Sender: [{ReadLastResumeSender?.GetType().Name}]");
         }
     }
 }
+#endif
