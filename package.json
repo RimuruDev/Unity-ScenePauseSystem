@@ -1,0 +1,25 @@
+{
+  "name": "com.rimurudev.scene-pause-system",
+  "displayName": "Unity Scene Pause System",
+  "version": "1.0.0",
+  "unity": "2020.3",
+  "description": "A system to manage pausing and resuming gameplay in Unity scenes.",
+  "keywords": [
+    "pause",
+    "system",
+    "unity",
+    "rimurudev",
+    "rimuru-dev",
+    "abyssmoth",
+    "pause-system",
+    "unity-pause-system",
+    "gameplay"
+  ],
+  "author": {
+    "name": "RimuruDev",
+    "email": "rimuru.dev@example.com",
+    "url": "https://github.com/RimuruDev"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
